@@ -28,20 +28,20 @@ module.exports = {
     },
     snowtrace: {
       url: 'https://api.avax-test.network/ext/bc/C/rpc',
-      accounts: ['79b69f5a028c58d3cdc3a5d0e228add1bd0e2806e6189768373b6df301a9a03c']
+      accounts: ['Private Key']
     },
     // Uncomment for test with fuji
     fuji: {
       url: "https://api.avax-test.network/ext/bc/C/rpc",
       gasPrice: 225000000000,
       chainId: 43113,
-      accounts: ['79b69f5a028c58d3cdc3a5d0e228add1bd0e2806e6189768373b6df301a9a03c'], 
+      accounts: ['Private Key'], 
     },
     mainnet: {
       url: "https://api.avax.network/ext/bc/C/rpc",
       gasPrice: 225000000000,
       chainId: 43114,
-      accounts: ['79b69f5a028c58d3cdc3a5d0e228add1bd0e2806e6189768373b6df301a9a03c'],
+      accounts: ['Private Key'],
     },
     localhost: {
       url: "http://localhost:8545", // Adjust port number if needed
